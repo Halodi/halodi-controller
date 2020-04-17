@@ -12,7 +12,7 @@ Instructions maintained by: will@halodi.com
 
 ## Simulation Construction Set Quick start
 
-[Simulation construction](https://github.com/ihmcrobotics/simulation-construction-set) set is a simulation developed by IHMC with good support for balancing robots, however it lacks manipulation support. We use this simulator internally.
+[Simulation Construction Set](https://github.com/ihmcrobotics/simulation-construction-set)  is a simulation developed by IHMC with physics tuned to balance control development. Manipulation support is lacking. We use this simulator internally.
 
 To use, download the latest release for your platform [here](https://github.com/Halodi/halodi-controller/releases), unpack and run "halodi-controller" or "halodi-controller.exe". The archive is self-contained and should run on any recent Windows and Linux system.
 
