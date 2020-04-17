@@ -7,7 +7,7 @@ Instructions maintained by: will@halodi.com
 
 ## Documentation
 
-- [API Documentation](https://github.com/Halodi/halodi-controller-simulation-api)
+- [API Documentation](https://github.com/Halodi/halodi-messages)
 
 
 ## Quick start installation
@@ -64,7 +64,7 @@ ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py
 To run the simulation, you need the following packages in your ROS2 workspace.
 
 - [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Branch: develop
-- [halodi-messages](https://github.com/Halodi/halodi-messages.git) Branch: master
-- [halodi-robot-modles](https://github.com/Halodi/halodi-robot-models.git)  Branch: feature/eve2020
-- [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group.git) Branch: feature/FB-288-ihmc-pub-sub-is-updated-to-latest-fast-rtps-release
+- [halodi-messages](https://github.com/Halodi/halodi-messages) Branch: master
+- [halodi-robot-modles](https://github.com/Halodi/halodi-robot-models)  Branch: feature/eve2020
+- [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group) Branch: feature/FB-288-ihmc-pub-sub-is-updated-to-latest-fast-rtps-release
 
