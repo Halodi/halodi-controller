@@ -10,7 +10,7 @@ repositories:
   halodi-robot-models:
     type: git
     url: git@github.com:Halodi/halodi-robot-models.git
-    version: feature/eve2020
+    version: develop
   ihmc-pub-sub-group:
     type: git
     url: git@github.com:ihmcrobotics/ihmc-pub-sub-group.git
