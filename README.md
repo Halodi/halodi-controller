@@ -55,7 +55,7 @@ develop with the EVE Gazebo simulation.
   OR (If you use ssh-keys with your GitHub account)
   ```bash
   wget https://raw.githubusercontent.com/Halodi/halodi-controller/master/eve_ws.repos .
-  vcs import < ./halodi-controller-simulation-api/eve_ws.repos
+  vcs import < ./eve_ws.repos
   ```
 5. Download the the lastest ROS2 Workspace Eve controller [here](https://github.com/Halodi/halodi-controller/releases) to your Downloads folder. Choose the latest Linux version.
 6. Extract it to your workspace:
