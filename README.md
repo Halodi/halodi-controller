@@ -10,7 +10,22 @@ Instructions maintained by: will@halodi.com
 - [API Documentation](https://github.com/Halodi/halodi-messages)
 
 
-## Quick start installation
+## Simulation Construction Set Quick start
+
+[Simulation construction](https://github.com/ihmcrobotics/simulation-construction-set) set is a simulation developed by IHMC with good support for balancing robots, however it lacks manipulation support. We use this simulator internally.
+
+To use, download the latest release for your platform [here](https://github.com/Halodi/halodi-controller/releases), unpack and run "halodi-controller" or "halodi-controller.exe". The archive is self-contained and should run on any recent Windows and Linux system.
+
+After starting, there are four options to choose from:
+
+- SCSEveSimulation: Simulation of the whole robot
+- SCSEveUpperBodySimulation: Simulation of just the upper body
+- EveVisualizer: Allows connection to the robot and inspect the controller variables online.
+- SCSVisualizer: Allows connection to the robot and inspect the controller variables online. This application is also able to connect to the controller plugin.
+
+To communicate with the robot, use the API found at [halodi-messages](https://github.com/Halodi/halodi-messages). This simulator has built-in ROS2 support.
+
+## ROS2/Gazebo Quick start installation
 
 Prerequisites:
 * Ubuntu 18.04
