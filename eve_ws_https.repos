@@ -1,0 +1,17 @@
+repositories:
+  halodi-controller-simulation-api:
+    type: git
+    url: https://github.com/Halodi/halodi-controller-simulation-api
+    version: develop
+  halodi-messages:
+    type: git
+    url: https://github.com/Halodi/halodi-messages.git
+    version: master
+  halodi-robot-models:
+    type: git
+    url: https://github.com/Halodi/halodi-robot-models.git
+    version: feature/eve2020
+  ihmc-pub-sub-group:
+    type: git
+    url: https://github.com/ihmcrobotics/ihmc-pub-sub-group.git
+    version: feature/FB-288-ihmc-pub-sub-is-updated-to-latest-fast-rtps-release
