@@ -2,7 +2,7 @@
 
 Instructions maintained by: will@halodi.com
 
-![eve_gazebo](./images/eve_gazebo_sim_ss.png)
+![eve_gazebo](./images/eve_gazebo_sim.png)
 
 
 ## Documentation
