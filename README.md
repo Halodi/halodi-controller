@@ -4,9 +4,18 @@ Instructions maintained by: will@halodi.com
 
 ![eve_gazebo](./images/eve_gazebo_sim_ss.png)
 
+
+## Documentation
+
+- [API Documentation](https://github.com/Halodi/halodi-controller-simulation-api)
+
+
+## Quick start installation
+
 Prerequisites:
 * Ubuntu 18.04
 * A machine with graphics acceleration capability
+* Internet connectivity (to download the JDK dependencies)
 * (Optional) An ssh-key for your Github account on your machine. If you haven't set one up, see [these instructions](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 The following steps describe the process for setting up your ROS 2 workspace to
@@ -49,4 +58,13 @@ develop with the EVE Gazebo simulation.
 ```bash
 ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py
 ```
+
+## Required ROS2 packages
+
+To run the simulation, you need the following packages in your ROS2 workspace.
+
+- [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Branch: develop
+- [halodi-messages](https://github.com/Halodi/halodi-messages.git) Branch: master
+- [halodi-robot-modles](https://github.com/Halodi/halodi-robot-models.git)  Branch: feature/eve2020
+- [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group.git) Branch: feature/FB-288-ihmc-pub-sub-is-updated-to-latest-fast-rtps-release
 
