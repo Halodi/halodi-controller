@@ -80,6 +80,6 @@ To run the simulation, you need the following packages in your ROS2 workspace.
 
 - [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Branch: develop
 - [halodi-messages](https://github.com/Halodi/halodi-messages) Branch: master
-- [halodi-robot-modles](https://github.com/Halodi/halodi-robot-models)  Branch: master
+- [halodi-robot-models](https://github.com/Halodi/halodi-robot-models)  Branch: master
 - [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group) Branch: feature/FB-288-ihmc-pub-sub-is-updated-to-latest-fast-rtps-release
 
