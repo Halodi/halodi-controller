@@ -1,7 +1,7 @@
 repositories:
   halodi-controller-simulation-api:
     type: git
-    url: https://github.com/Halodi/halodi-controller-simulation-api
+    url: https://github.com/Halodi/halodi-controller-simulation-api.git
     version: develop
   halodi-messages:
     type: git
@@ -10,7 +10,7 @@ repositories:
   halodi-robot-models:
     type: git
     url: https://github.com/Halodi/halodi-robot-models.git
-    version: develop
+    version: master
   ihmc-pub-sub-group:
     type: git
     url: https://github.com/ihmcrobotics/ihmc-pub-sub-group.git
