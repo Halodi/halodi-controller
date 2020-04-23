@@ -14,4 +14,4 @@ repositories:
   ihmc-pub-sub-group:
     type: git
     url: https://github.com/ihmcrobotics/ihmc-pub-sub-group.git
-    version: feature/FB-288-ihmc-pub-sub-is-updated-to-latest-fast-rtps-release
+    version: 0.14.0
