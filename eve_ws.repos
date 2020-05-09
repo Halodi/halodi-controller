@@ -2,7 +2,7 @@ repositories:
   halodi-controller-simulation-api:
     type: git
     url: git@github.com:Halodi/halodi-controller-simulation-api.git
-    version: develop
+    version: master
   halodi-messages:
     type: git
     url: git@github.com:Halodi/halodi-messages.git
