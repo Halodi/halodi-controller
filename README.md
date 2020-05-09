@@ -1,4 +1,4 @@
-# Eve Controller Workspace Setup with Gazebo simulation
+# Eve Controller Workspace Setup with Gazebo simulation (Developer)
 
 Instructions maintained by: will@halodi.com
 
@@ -40,7 +40,7 @@ develop with the EVE Gazebo simulation.
 2. Install the following:
   ```bash
   sudo apt update
-  sudo apt install git python3-colcon-common-extensions python3-vcstool swig3.0 xsltproc gazebo9 ros-eloquent-gazebo-ros-pkgs 
+  sudo apt install git python3-colcon-common-extensions python3-vcstool swig3.0 xsltproc gazebo9 ros-eloquent-gazebo-ros-pkgs
   ```
 3. Create ROS 2 a workspace:
   ```bash
@@ -49,12 +49,12 @@ develop with the EVE Gazebo simulation.
   ```
 4. In your workspace src directory, import the libraries
   ```bash
-  wget https://raw.githubusercontent.com/Halodi/halodi-controller/master/eve_ws_https.repos .
+  wget https://raw.githubusercontent.com/Halodi/halodi-controller/develop/eve_ws_https.repos .
   vcs import < ./eve_ws_https.repos
   ```
   OR (If you use ssh-keys with your GitHub account)
   ```bash
-  wget https://raw.githubusercontent.com/Halodi/halodi-controller/master/eve_ws.repos .
+  wget https://raw.githubusercontent.com/Halodi/halodi-controller/develop/eve_ws.repos .
   vcs import < ./eve_ws.repos
   ```
 5. Download the the lastest ROS2 Workspace Eve controller [here](https://github.com/Halodi/halodi-controller/releases) to your Downloads folder. Choose the latest Linux version.
@@ -82,4 +82,3 @@ To run the simulation, you need the following packages in your ROS2 workspace.
 - [halodi-messages](https://github.com/Halodi/halodi-messages) Branch: master
 - [halodi-robot-models](https://github.com/Halodi/halodi-robot-models)  Branch: master
 - [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group) Branch: develop
-
