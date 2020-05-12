@@ -1,4 +1,4 @@
-# Eve Controller Workspace Setup with Gazebo simulation (Developer)
+# Eve Controller Workspace Setup with Gazebo simulation
 
 Instructions maintained by: will@halodi.com
 
