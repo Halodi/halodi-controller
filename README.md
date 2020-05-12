@@ -12,12 +12,16 @@ Instructions maintained by: will@halodi.com
 
 ## Controller Quick start
 
-The controller comes bundled with [Simulation Construction Set](https://github.com/ihmcrobotics/simulation-construction-set) (SCS). SCS is a simulation developed by IHMC with physics tuned to balance control development. Manipulation support is lacking. We use this simulator internally for the development of .
+The controller comes bundled with [Simulation Construction Set](https://github.com/ihmcrobotics/simulation-construction-set) (SCS). SCS is a simulation developed by IHMC with physics tuned to balance control development. Manipulation support is lacking. We use this simulator internally for the development of the balance algorithm.
 
 
 ### Installation
 
-Toinstall, download the latest release for your platform [here](https://github.com/Halodi/halodi-controller/releases) and unpack to a suitable location on our hard drive. Run "halodi-controller" (Linux) or "halodi-controller.exe" (Windows) and select "InstallEveControllerPlugin". This will install a link to the controller in $XDG_DATA_HOME (Linux) or %LOCALAPPDATA% (Windows) so it can be found by Gazebo and our Unity simulator. To upgrade, download the newest version and re-run "InstallEveControllerPlugin".
+To install, download the latest release for your platform [here](https://github.com/Halodi/halodi-controller/releases) and unpack to a suitable location on our hard drive. 
+
+Run "halodi-controller" (Linux) or "halodi-controller.exe" (Windows) and select "InstallEveControllerPlugin". This will install a link to the controller in $XDG_DATA_HOME (Linux) or %LOCALAPPDATA% (Windows) so it can be found by Gazebo and our Unity simulator. 
+
+To upgrade, download the newest version and re-run "InstallEveControllerPlugin".
 
 
 After starting, there are several options to choose from:
@@ -33,6 +37,7 @@ To communicate with the robot, use the API found at [halodi-messages](https://gi
 ## ROS2/Gazebo Quick start installation
 
 Prerequisites:
+
 * Ubuntu 18.04
 * A machine with graphics acceleration capability
 * Internet connectivity (to download the JDK dependencies)
@@ -43,33 +48,39 @@ develop with the EVE Gazebo simulation.
 
 1. Install [ROS 2 - Eloquent](https://index.ros.org/doc/ros2/Installation/Eloquent/)
 2. Install the following:
+
   ```bash
   sudo apt update
   sudo apt install git python3-colcon-common-extensions python3-vcstool swig3.0 xsltproc gazebo9 ros-eloquent-gazebo-ros-pkgs
   ```
 3. Create ROS 2 a workspace:
+
   ```bash
   mkdir -p ~/eve_ws/src
   cd ~/eve_ws/src
   ```
 4. In your workspace src directory, import the libraries
+
   ```bash
   wget https://raw.githubusercontent.com/Halodi/halodi-controller/develop/eve_ws_https.repos .
   vcs import < ./eve_ws_https.repos
   ```
   OR (If you use ssh-keys with your GitHub account)
+  
   ```bash
   wget https://raw.githubusercontent.com/Halodi/halodi-controller/develop/eve_ws.repos .
   vcs import < ./eve_ws.repos
   ```
 5. Make sure you have installed the halodi-controller. See the Instalation chapter above this chapter.
 6. Build and source the workspace:
+
   ```bash
   cd ~/eve_ws
   colcon build
   . install/setup.bash
   ```
 7. Launch the EVE Gazebo sim:
+
 ```bash
 ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py
 ```
