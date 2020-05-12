@@ -14,4 +14,4 @@ repositories:
   ihmc-pub-sub-group:
     type: git
     url: https://github.com/ihmcrobotics/ihmc-pub-sub-group.git
-    version: develop
+    version: 0.14.2
