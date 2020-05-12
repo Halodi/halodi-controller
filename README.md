@@ -1,6 +1,5 @@
 # Eve Controller Workspace Setup with Gazebo simulation
 
-Instructions maintained by: will@halodi.com
 
 ![eve_gazebo](./images/eve_gazebo_sim.png)
 
@@ -92,4 +91,4 @@ To run the simulation, you need the following packages in your ROS2 workspace.
 - [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Branch: master
 - [halodi-messages](https://github.com/Halodi/halodi-messages) Branch: master
 - [halodi-robot-models](https://github.com/Halodi/halodi-robot-models)  Branch: master
-- [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group) Branch: develop
+- [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group) Tag: 0.14.2
