@@ -20,16 +20,17 @@ To install, download the latest release for your platform [here](https://github.
 
 Run "halodi-controller" (Linux) or "halodi-controller.exe" (Windows) and select "InstallEveControllerPlugin". This will install a link to the controller in $XDG_DATA_HOME (Linux) or %LOCALAPPDATA% (Windows) so it can be found by Gazebo and our Unity simulator. 
 
-To upgrade, download the newest version and re-run "InstallEveControllerPlugin".
+To upgrade, download the newest version and re-run "EveSimulationPluginInstaller".
 
 
-After starting, there are several options to choose from:
+After starting "halodi-controller" (Linux) or "halodi-controller.exe" (Windows), there are several options to choose from:
 
 - SCSEveSimulation: Simulation of the whole robot
 - SCSEveUpperBodySimulation: Simulation of just the upper body
 - EveVisualizer: Allows connection to the robot and inspect the controller variables online.
 - SCSVisualizer: Allows connection to the robot and inspect the controller variables online. This application is also able to connect to the controller plugin.
 - EveJointEncoderCalibrationVisualizer: Recalibration of the joint encoders on Eve.
+- EveSimulationPluginInstaller: Install a link to the controller for use in the plugin.
 
 To communicate with the robot, use the API found at [halodi-messages](https://github.com/Halodi/halodi-messages). This simulator has built-in ROS2 support.
 
