@@ -75,6 +75,7 @@ develop with the EVE Gazebo simulation.
 6. Build and source the workspace:
 
   ```bash
+  source /opt/ros/eloquent/setup.bash
   cd ~/eve_ws
   colcon build
   . install/setup.bash
