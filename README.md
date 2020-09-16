@@ -62,13 +62,13 @@ develop with the EVE Gazebo simulation.
 4. In your workspace src directory, import the libraries
 
   ```bash
-  wget https://raw.githubusercontent.com/Halodi/halodi-controller/develop/eve_ws_https.repos .
+  wget https://raw.githubusercontent.com/Halodi/halodi-controller/master/eve_ws_https.repos .
   vcs import < ./eve_ws_https.repos
   ```
   OR (If you use ssh-keys with your GitHub account)
   
   ```bash
-  wget https://raw.githubusercontent.com/Halodi/halodi-controller/develop/eve_ws.repos .
+  wget https://raw.githubusercontent.com/Halodi/halodi-controller/master/eve_ws.repos .
   vcs import < ./eve_ws.repos
   ```
 5. Make sure you have installed the halodi-controller. See the Instalation chapter above this chapter.
@@ -98,4 +98,4 @@ To run the simulation, you need the following packages in your ROS2 workspace.
 - [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Branch: master
 - [halodi-messages](https://github.com/Halodi/halodi-messages) Branch: master
 - [halodi-robot-models](https://github.com/Halodi/halodi-robot-models)  Branch: master
-- [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group) Tag: 0.14.2
+- [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group) Tag: 0.16.0
