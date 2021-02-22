@@ -11,7 +11,3 @@ repositories:
     type: git
     url: git@github.com:Halodi/halodi-robot-models.git
     version: master
-  ihmc-pub-sub-group:
-    type: git
-    url: git@github.com:ihmcrobotics/ihmc-pub-sub-group.git
-    version: 0.16.0
