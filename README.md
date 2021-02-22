@@ -18,19 +18,15 @@ The controller comes bundled with [Simulation Construction Set](https://github.c
 
 To install, download the latest release for your platform [here](https://github.com/Halodi/halodi-controller/releases) and unpack to a suitable location on our hard drive. 
 
-Run "halodi-controller" (Linux) or "halodi-controller.exe" (Windows) and select "InstallEveControllerPlugin". This will install a link to the controller in $XDG_DATA_HOME (Linux) or %LOCALAPPDATA% (Windows) so it can be found by Gazebo and our Unity simulator. 
 
-To upgrade, download the newest version and re-run "EveSimulationPluginInstaller".
-
-
-After starting "halodi-controller" (Linux) or "halodi-controller.exe" (Windows), there are several options to choose from:
+In the bundle you'll find a number of scripts (.bat on Windows) to start various applications:
 
 - SCSEveSimulation: Simulation of the whole robot
-- SCSEveUpperBodySimulation: Simulation of just the upper body
 - EveVisualizer: Allows connection to the robot and inspect the controller variables online.
 - SCSVisualizer: Allows connection to the robot and inspect the controller variables online. This application is also able to connect to the controller plugin.
 - EveJointEncoderCalibrationVisualizer: Recalibration of the joint encoders on Eve.
 - EveSimulationPluginInstaller: Install a link to the controller for use in the plugin.
+- DeployFirmwareToEve: Tool to deploy Firmware to Eve.
 
 To communicate with the robot, use the API found at [halodi-messages](https://github.com/Halodi/halodi-messages). This simulator has built-in ROS2 support.
 
@@ -38,7 +34,7 @@ To communicate with the robot, use the API found at [halodi-messages](https://gi
 
 Prerequisites:
 
-* Ubuntu 18.04
+* Ubuntu 20.04
 * A machine with graphics acceleration capability
 * Internet connectivity (to download the JDK dependencies)
 * (Optional) An ssh-key for your Github account on your machine. If you haven't set one up, see [these instructions](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -46,12 +42,12 @@ Prerequisites:
 The following steps describe the process for setting up your ROS 2 workspace to
 develop with the EVE Gazebo simulation.
 
-1. Install [ROS 2 - Eloquent](https://index.ros.org/doc/ros2/Installation/Eloquent/)
+1. Install [ROS 2 - Eloquent](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/)
 2. Install the following:
 
   ```bash
   sudo apt update
-  sudo apt install git python3-colcon-common-extensions python3-vcstool swig3.0 xsltproc gazebo9 ros-eloquent-gazebo-ros-pkgs
+  sudo apt install git python3-colcon-common-extensions python3-vcstool xsltproc gazebo11 ros-foxy-gazebo-ros-pkgs
   ```
 3. Create ROS 2 a workspace:
 
@@ -75,7 +71,7 @@ develop with the EVE Gazebo simulation.
 6. Build and source the workspace:
 
   ```bash
-  . /opt/ros/eloquent/setup.bash
+  . /opt/ros/foxy/setup.bash
   cd ~/eve_ws
   colcon build
   . install/local_setup.bash
@@ -99,4 +95,3 @@ To run the simulation, you need the following packages in your ROS2 workspace.
 - [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Branch: master
 - [halodi-messages](https://github.com/Halodi/halodi-messages) Branch: master
 - [halodi-robot-models](https://github.com/Halodi/halodi-robot-models)  Branch: master
-- [IHMC Pub Sub Group](https://github.com/ihmcrobotics/ihmc-pub-sub-group) Tag: 0.16.0
