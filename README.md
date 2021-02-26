@@ -4,6 +4,12 @@
 ![eve_gazebo](./images/eve_gazebo_sim.png)
 
 
+## Supported ROS2 version
+
+The simulation plugin supports ROS2 - Foxy on Ubuntu 20.04. 
+
+For Ros2 - Eloquent on Ubuntu 18.04 see the EOL branch: [eloquent-eol](https://github.com/Halodi/halodi-controller/tree/).
+
 ## Documentation
 
 - [API Documentation](https://github.com/Halodi/halodi-messages)
@@ -92,6 +98,6 @@ ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py trajecto
 
 To run the simulation, you need the following packages in your ROS2 workspace.
 
-- [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Branch: master
-- [halodi-messages](https://github.com/Halodi/halodi-messages) Branch: master
-- [halodi-robot-models](https://github.com/Halodi/halodi-robot-models)  Branch: master
+- [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Branch: main
+- [halodi-messages](https://github.com/Halodi/halodi-messages) Branch: main
+- [halodi-robot-models](https://github.com/Halodi/halodi-robot-models)  Branch: main
