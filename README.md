@@ -8,7 +8,7 @@
 
 The simulation plugin supports ROS2 - Foxy on Ubuntu 20.04. 
 
-For Ros2 - Eloquent on Ubuntu 18.04 see the EOL branch: [eloquent-eol](https://github.com/Halodi/halodi-controller/tree/).
+For Ros2 - Eloquent on Ubuntu 18.04 see the EOL branch: [eloquent-eol](https://github.com/Halodi/halodi-controller/tree/eloquent-eol).
 
 ## Documentation
 
@@ -48,7 +48,7 @@ Prerequisites:
 The following steps describe the process for setting up your ROS 2 workspace to
 develop with the EVE Gazebo simulation.
 
-1. Install [ROS 2 - Eloquent](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/)
+1. Install [ROS 2 - Foxy](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/)
 2. Install the following:
 
   ```bash
@@ -64,13 +64,13 @@ develop with the EVE Gazebo simulation.
 4. In your workspace src directory, import the libraries
 
   ```bash
-  wget https://raw.githubusercontent.com/Halodi/halodi-controller/master/eve_ws_https.repos .
+  wget https://raw.githubusercontent.com/Halodi/halodi-controller/main/eve_ws_https.repos .
   vcs import < ./eve_ws_https.repos
   ```
   OR (If you use ssh-keys with your GitHub account)
   
   ```bash
-  wget https://raw.githubusercontent.com/Halodi/halodi-controller/master/eve_ws.repos .
+  wget https://raw.githubusercontent.com/Halodi/halodi-controller/main/eve_ws.repos .
   vcs import < ./eve_ws.repos
   ```
 5. Make sure you have installed the halodi-controller. See the Instalation chapter above this chapter.
