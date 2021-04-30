@@ -96,7 +96,7 @@ ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py trajecto
 
 To connect "SCSVisualizer" from the controller installation to the Gazebo instance to tune variables, add "variable-server:=true" as argument.
 ```bash
-ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py variable-server:=false
+ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py variable-server:=true
 ```
 
 ## Required ROS2 packages
