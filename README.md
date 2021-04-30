@@ -94,6 +94,11 @@ To disable the trajectory API and use the realtime API pass "trajectory-api:=fal
 ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py trajectory-api:=false
 ```
 
+To connect "SCSVisualizer" from the controller installation to the Gazebo instance to tune variables, add "variable-server:=true" as argument.
+```bash
+ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py variable-server:=false
+```
+
 ## Required ROS2 packages
 
 To run the simulation, you need the following packages in your ROS2 workspace.
