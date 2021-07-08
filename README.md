@@ -43,7 +43,6 @@ Prerequisites:
 * Ubuntu 20.04
 * A machine with graphics acceleration capability
 * Internet connectivity (to download the JDK dependencies)
-* (Optional) An ssh-key for your Github account on your machine. If you haven't set one up, see [these instructions](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 The following steps describe the process for setting up your ROS 2 workspace to
 develop with the EVE Gazebo simulation.
@@ -67,12 +66,7 @@ develop with the EVE Gazebo simulation.
   wget https://raw.githubusercontent.com/Halodi/halodi-controller/main/eve_ws_https.repos .
   vcs import < ./eve_ws_https.repos
   ```
-  OR (If you use ssh-keys with your GitHub account)
-  
-  ```bash
-  wget https://raw.githubusercontent.com/Halodi/halodi-controller/main/eve_ws.repos .
-  vcs import < ./eve_ws.repos
-  ```
+
 5. Make sure you have installed the halodi-controller. See the Instalation chapter above this chapter.
 6. Build and source the workspace:
 
@@ -103,6 +97,6 @@ ros2 launch halodi-controller-gazebo halodi-controller-gazebo.launch.py variable
 
 To run the simulation, you need the following packages in your ROS2 workspace.
 
-- [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Branch: main
-- [halodi-messages](https://github.com/Halodi/halodi-messages) Branch: main
-- [halodi-robot-models](https://github.com/Halodi/halodi-robot-models)  Branch: main
+- [halodi-controller-simulation-api](https://github.com/Halodi/halodi-controller-simulation-api) Tag: 1.0.0
+- [halodi-messages](https://github.com/Halodi/halodi-messages) Tag: 1.6.0
+- [halodi-robot-models](https://github.com/Halodi/halodi-robot-models)  Tag: 2.3.4
