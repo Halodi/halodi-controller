@@ -7,3 +7,7 @@ repositories:
     type: git
     url: https://github.com/Halodi/eve-ros2-examples.git
     version: asta
+  halodi-ros2-zed-camera-streaming:
+    type: git
+    url: https://github.com/Halodi/halodi-ros2-zed-camera-streaming.git
+    version: main
