@@ -3,7 +3,7 @@ repositories:
     type: git
     url: https://github.com/Halodi/halodi-messages.git
     version: 1.6.0
-  eve-ros2-examples
+  eve-ros2-examples:
     type: git
     url: https://github.com/Halodi/eve-ros2-examples.git
     version: asta
