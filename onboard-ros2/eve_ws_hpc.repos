@@ -10,8 +10,8 @@ repositories:
   halodi-ros2-zed-camera-streaming:
     type: git
     url: https://github.com/Halodi/halodi-ros2-zed-camera-streaming.git
-    version: main
+    version: asta
   halodi-ros2-fiducial-marker-tools:
     type: git
     url: https://robotcalibration:5zvzxzRxv9FEdoQugwEv@gitlab.com/halodi/controls/ros2/halodi-ros2-fiducial-marker-tools.git
-    version: main
+    version: asta
