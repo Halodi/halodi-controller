@@ -22,10 +22,10 @@ The controller comes bundled with [Simulation Construction Set](https://github.c
 
 ### Installation
 
-To install, download the latest release for your platform [here](https://github.com/Halodi/halodi-controller/releases) and unpack to a suitable location on our hard drive. 
+To install, download the latest release for your platform [here](https://github.com/Halodi/halodi-controller/releases) and unpack to a suitable location on our hard drive. Run `InstallEveControllerPlugin` after unpacking.
 
 
-In the bundle you'll find a number of scripts (.bat on Windows) to start various applications:
+In the bundle you'll find a number of executables (.exe on Windows) to start various applications:
 
 - SCSEveSimulation: Simulation of the whole robot
 - EveVisualizer: Allows connection to the robot and inspect the controller variables online.
@@ -67,7 +67,7 @@ develop with the EVE Gazebo simulation.
   vcs import < ./eve_ws_https.repos
   ```
 
-5. Make sure you have installed the halodi-controller. See the Instalation chapter above this chapter. Run `InstallEveControllerPlugin` to setup the link between Gazebo and the controller.
+5. Make sure you have installed the halodi-controller. See the Instalation chapter above this chapter. Make sure to run `InstallEveControllerPlugin` to setup the link between Gazebo and the controller.
 6. Build and source the workspace:
 
   ```bash
