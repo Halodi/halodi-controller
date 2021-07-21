@@ -31,7 +31,7 @@ In the bundle you'll find a number of scripts (.bat on Windows) to start various
 - EveVisualizer: Allows connection to the robot and inspect the controller variables online.
 - SCSVisualizer: Allows connection to the robot and inspect the controller variables online. This application is also able to connect to the controller plugin.
 - EveJointEncoderCalibrationVisualizer: Recalibration of the joint encoders on Eve.
-- EveSimulationPluginInstaller: Install a link to the controller for use in the plugin.
+- InstallEveControllerPlugin: Install a link to the controller for use in the plugin.
 - DeployFirmwareToEve: Tool to deploy Firmware to Eve.
 
 To communicate with the robot, use the API found at [halodi-messages](https://github.com/Halodi/halodi-messages). This simulator has built-in ROS2 support.
@@ -67,7 +67,7 @@ develop with the EVE Gazebo simulation.
   vcs import < ./eve_ws_https.repos
   ```
 
-5. Make sure you have installed the halodi-controller. See the Instalation chapter above this chapter.
+5. Make sure you have installed the halodi-controller. See the Instalation chapter above this chapter. Run `InstallEveControllerPlugin` to setup the link between Gazebo and the controller.
 6. Build and source the workspace:
 
   ```bash
