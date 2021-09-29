@@ -36,6 +36,10 @@ In the bundle you'll find a number of executables (.exe on Windows) to start var
 
 To communicate with the robot, use the API found at [halodi-messages](https://github.com/Halodi/halodi-messages). This simulator has built-in ROS2 support.
 
+### Updating
+
+Download an unpack the newer version for your platform [here](https://github.com/Halodi/halodi-controller/releases). Run `InstallEveControllerPlugin` after unpacking. To switch between versions, run `InstallEveControllerPlugin` and restart all applications that depend on it.
+
 ## ROS2/Gazebo Quick start installation
 
 Prerequisites:
