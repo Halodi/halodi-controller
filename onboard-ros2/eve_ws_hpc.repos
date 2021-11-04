@@ -13,5 +13,5 @@ repositories:
     version: asta
   halodi-ros2-fiducial-marker-tools:
     type: git
-    url: https://robotcalibration:7hMtL8GsVHT_xDGNER2z@gitlab.com/halodi/controls/ros2/halodi-ros2-fiducial-marker-tools.git
+    url: git@gitlab.com/halodi/controls/ros2/halodi-ros2-fiducial-marker-tools.git
     version: asta
