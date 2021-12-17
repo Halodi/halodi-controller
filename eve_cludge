@@ -1,0 +1,53 @@
+repositories:
+  halodi-controller-simulation-api:
+    type: git
+    url: https://gitlab.com/halodi/controls/halodi-controller-simulation-api.git
+    version: feature/arg-gazebo-headless
+  halodi-messages:
+    type: git
+    url: https://github.com/Halodi/halodi-messages.git
+    version: main
+  halodi-robot-models:
+    type: git
+    url: https://gitlab.com/halodi/controls/halodi-robot-models.git
+    version: feature/mesh-install-directory
+  halodi-ros2-bringup:
+    type: git
+    url: https://gitlab.com/halodi/controls/ros2/halodi-ros2-bringup.git
+    version: main
+  halodi-ros2-code-quality:
+    type: git
+    url: https://gitlab.com/halodi/controls/ros2/halodi-ros2-code-quality.git
+    version: main
+  json:
+    type: git
+    url: https://github.com/nlohmann/json.git
+    version: develop
+  navigation2:
+    type: git
+    url: https://gitlab.com/halodi/controls/ros2/navigation2.git
+    version: galactic
+  robot-actions:
+    type: git
+    url: https://gitlab.com/halodi/controls/robot-actions.git
+    version: main
+  robot-animations:
+    type: git
+    url: https://gitlab.com/halodi/controls/robot-behaviors.git
+    version: feature/anim-parsing
+  nats-bridge:
+    type: git
+    url: https://gitlab.com/halodi/controls/ros2/nats-bridge.git
+    version: main
+  halodi_ros_object_detection:
+    type: git
+    url: https://gitlab.com/halodi/controls/perception-learning/demo/halodi_ros_object_detection.git
+    version: main
+  yolo-detector:
+    type: git
+    url: https://gitlab.com/halodi/controls/perception-learning/yolo-detector.git
+    version: feature/yolov5
+  zed-ros2-wrapper:
+    type: git
+    url: https://gitlab.com/halodi/controls/ros2/zed-ros2-wrapper.git
+    version: feature/galactic/stream_toggle
